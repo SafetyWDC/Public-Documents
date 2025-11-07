@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safety Dashboard - WDC</title>
+    <!-- Carga de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen p-4 sm:p-8 font-sans">
+    <div class="max-w-4xl mx-auto">
+        
+        <!-- Cabecera principal -->
+        <header class="mb-8">
+            <h1 class="text-4xl font-bold text-cyan-800">WDC Safety Dashboard</h1>
+        </header>
+
+        <!-- Contenedor de las secciones -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+            <!-- Sección: Seguridad General -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold text-lime-600 mb-4">Safety</h3>
+                <div class="flex flex-col space-y-3">
+                    <a href="https://view.genially.com/688bed930546b21eae38014c/interactive-content-1475-and-1600-mt-fee-rd-safety-map" target="_blank" rel="noopener noreferrer" class="block w-full text-center bg-white border-2 border-cyan-700 text-gray-800 text-lg font-semibold py-3 px-4 rounded-lg transition duration-200 hover:bg-cyan-700 hover:text-white">
+                        Safety map app
+                    </a>
+                    <a href="https://drive.google.com/file/d/1cGBBEPoD4Iu2DieL-S_Q20EB_KHtU3X3/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="block w-full text-center bg-cyan-700 text-white text-lg font-semibold py-3 px-4 rounded-lg transition duration-200 hover:bg-cyan-800">
+                        Safety Map printed Version
+                    </a>
+                    <a href="https://drive.google.com/file/d/1GzeBFzT4NQc2GIyeJuRXEAzPOUU-Go3_/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="block w-full text-center bg-white border-2 border-cyan-700 text-gray-800 text-lg font-semibold py-3 px-4 rounded-lg transition duration-200 hover:bg-cyan-700 hover:text-white">
+                        Emergency procedures
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sección: Orientaciones -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold text-lime-600 mb-4">Orientations</h3>
+                <div class="flex flex-col space-y-3">
+                    <a href="https://safetywdc.github.io/Worker-Orientation/" target="_blank" rel="noopener noreferrer" class="block w-full text-center bg-white border-2 border-cyan-700 text-gray-800 text-lg font-semibold py-3 px-4 rounded-lg transition duration-200 hover:bg-cyan-700 hover:text-white">
+                        Worker Orientation app
+                    </a>
+                    <a href="https://drive.google.com/file/d/1D_2hKzcs4VajZNakydvE_4SHmunkAFFa/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="block w-full text-center bg-cyan-700 text-white text-lg font-semibold py-3 px-4 rounded-lg transition duration-200 hover:bg-cyan-800">
+                        Worker orientation printed Version
+                    </a>
+                    <a href="https://gemini.google.com/share/ecd5cc434364" target="_blank" rel="noopener noreferrer" class="block w-full text-center bg-white border-2 border-cyan-700 text-gray-800 text-lg font-semibold py-3 px-4 rounded-lg transition duration-200 hover:bg-cyan-700 hover:text-white">
+                        Visitor Orientation app
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sección: Control de Vehículos -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold text-lime-600 mb-4">Vehicle Control</h3>
+                <div class="flex flex-col space-y-3">
+                    <a href="https://script.google.com/macros/s/AKfycbxNbbi-Qjb8JVn_uD7pcq3eDZPBtL6GsBjavApI8Yw59l6jmRU68Dnwr7z0E25n-xdP/exec" target="_blank" rel="noopener noreferrer" class="block w-full text-center bg-cyan-700 text-white text-lg font-semibold py-3 px-4 rounded-lg transition duration-200 hover:bg-cyan-800">
+                        Vehicle Finder app
+                    </a>
+                    <a href="https://forms.gle/kmhP3jdWuRzSogmC9" target="_blank" rel="noopener noreferrer" class="block w-full text-center bg-white border-2 border-cyan-700 text-gray-800 text-lg font-semibold py-3 px-4 rounded-lg transition duration-200 hover:bg-cyan-700 hover:text-white">
+                        Vehicle Registration
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sección: WHMIS SDS -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold text-lime-600 mb-4">WHMIS SDS</h3>
+                <div class="flex flex-col space-y-3">
+                    <a href="https://script.google.com/macros/s/AKfycbz0gSxsKatT3qrQnYQ6XF-nhi6br-jnkEwDD5J1qrueryOBODLP46ZdEOCdiscaPN1PCA/exec" target="_blank" rel="noopener noreferrer" class="block w-full text-center bg-cyan-700 text-white text-lg font-semibold py-3 px-4 rounded-lg transition duration-200 hover:bg-cyan-800">
+                        SDS Finder
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sección: Permisos -->
+            <div class="bg-white p-6 rounded-lg shadow-md md:col-span-2"> <!-- Este se expande a lo ancho en pantallas grandes si es el último impar -->
+                <h3 class="text-xl font-bold text-lime-600 mb-4">Permits</h3>
+                <div class="flex flex-col space-y-3">
+                    <a href="https://drive.google.com/file/d/136rdk4Muf1m0UPSKCTqJPLkGU7BmxU2Q/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="block w-full text-center bg-white border-2 border-cyan-700 text-gray-800 text-lg font-s
+emibold py-3 px-4 rounded-lg transition duration-200 hover:bg-cyan-700 hover:text-white">
+                        After hours & Weekend Work permit
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
